@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --red: #E52727;
+    --white: #ffffff;
+    --font: 'Dosis', sans-serif;
+}
+
+*{
+    font-family: var(--font);
+    border-radius: 2px;
+}
+
+.text-red{
+    color: var(--red)!important;
+}
+
+.text-white{
+    color: var(--white)!important;
+}
+
+.bg-red{
+    background-color: var(--red)!important;
+    background: var(--red)!important;
+}
+
+
+body{
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #070919 , rgba(25, 7, 23, 0.801));
+    background-repeat: no-repeat;
+}
+
+nav{
+    background: transparent!important;
+    backdrop-filter: blur(10px)!important;
+}
+
+
+.navbar-nav li a{
+    color: var(--white)!important;
+}
+
+.hero-wrapper,.about-wrapper,
+.contact-wrapper,.project-wrapper,
+.footer-wrapper{
+    margin-top: 8rem!important;
+}
+
+
+.hero-wrapper .col-6 h1{
+    font-size: 4rem!important;
+}
+
+.about-wrapper .col-6 h1{
+    font-size: 3rem!important;
+}
+
+.contact-wrapper .col-6 h1{
+    font-size: 3rem!important;
+}
+.project-wrapper .col-12 h1{
+    font-size: 3rem!important;
+    border-bottom: 1px solid white !important;
+}
+
+.contact-wrapper .col-6 form input,
+.contact-wrapper .col-6 form textarea{
+    border-color: var(--red);
+    background: transparent!important;
+}
+
+::placeholder{
+    color: var(--white)!important;
+}
+
+hr{
+    color: white!important;
+}
