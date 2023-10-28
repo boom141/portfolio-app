@@ -12,7 +12,7 @@ class Projects extends Component{
 
     render(){
         return(
-            <div className="container-md container-sm mt-5">
+            <div id="project" className="container-md container-sm mt-5">
                 <div className="row project-wrapper">
                     <div className="col-12 d-flex flex-column align-items-start justify-content-center">
                         <h1 className="text-red w-100 py-3 mb-5">Web Applications</h1>

@@ -11,7 +11,7 @@ class About extends Component{
 
     render(){
         return(
-            <div className="container-md container-sm mt-5">
+            <div id="about" className="container-md container-sm mt-5">
                 <div className="row about-wrapper">
                     <div className="col-6  d-flex justify-content-center">
                         <img height="400" src={logo} alt="" />

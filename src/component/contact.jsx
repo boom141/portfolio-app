@@ -11,7 +11,7 @@ class Contact extends Component{
 
     render(){
         return(
-            <div className="container-md container-sm mt-5">
+            <div id="contact" className="container-md container-sm mt-5">
                 <div className="row contact-wrapper">
                     <div className="col-6 d-flex flex-column align-items-end  row-gap-3">
                         <h1 className="w-75 text-white">

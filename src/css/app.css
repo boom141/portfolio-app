@@ -77,3 +77,7 @@ nav{
 hr{
     color: white!important;
 }
+
+.active-nav{
+    color: var(--red)!important;
+}
