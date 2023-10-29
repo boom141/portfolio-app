@@ -1,7 +1,6 @@
 import {React, Component} from "react";
-import logo from '../assets/hero_section_logo.svg'; 
-import arrow_red from '../assets/arrow_red.svg'; 
-import arrow_white from '../assets/arrow_white.svg'; 
+import contact_img from '../assets/contact_img.svg'; 
+ 
 
 
 class Contact extends Component{
@@ -11,7 +10,7 @@ class Contact extends Component{
 
     render(){
         return(
-            <div id="contact" className="container-md container-sm mt-5">
+            <div id="contact" className="main-wrapper container-md container-sm mt-5">
                 <div className="row contact-wrapper">
                     <div className="col-6 d-flex flex-column align-items-end  row-gap-3">
                         <h1 className="w-75 text-white">
@@ -34,15 +33,8 @@ class Contact extends Component{
                             <span className="fs-4 text-white">Manila, Metro Manila</span> 
                         </div>
                     </div>
-                    <div className="col-6 d-flex justify-content-center">
-                        <form action="" className="d-flex flex-column row-gap-3 w-50">
-                            <input type="text" className="form-control" placeholder="Name"/>
-                            <input type="text" className="form-control" placeholder="Email"/>
-                            <textarea className="form-control" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                            <div role="button" className="rounded-2 border w-100 d-flex align-items-center justify-content-center p-2">
-                                <span className="fs-5 text-red">Send</span> 
-                            </div>
-                        </form>
+                    <div className="col-6  d-flex justify-content-center">
+                        <img height="400" src={contact_img} alt="" />
                     </div>
                 </div>
             </div>

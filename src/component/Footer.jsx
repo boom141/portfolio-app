@@ -1,4 +1,4 @@
-import {React, Component} from "react";
+import React,{Component} from "react";
 import logo from '../assets/hero_section_logo.svg'; 
 import arrow_red from '../assets/arrow_red.svg'; 
 import arrow_white from '../assets/arrow_white.svg'; 

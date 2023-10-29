@@ -37,14 +37,10 @@ nav{
 }
 
 
-.navbar-nav li a{
-    color: var(--white)!important;
-}
-
 .hero-wrapper,.about-wrapper,
 .contact-wrapper,.project-wrapper,
 .footer-wrapper{
-    margin-top: 8rem!important;
+    margin-top: 9rem!important;
 }
 
 

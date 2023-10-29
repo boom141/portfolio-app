@@ -11,7 +11,7 @@ class About extends Component{
 
     render(){
         return(
-            <div id="about" className="container-md container-sm mt-5">
+            <div id="about" className="main-wrapper container-md container-sm mt-5">
                 <div className="row about-wrapper">
                     <div className="col-6  d-flex justify-content-center">
                         <img height="400" src={logo} alt="" />
@@ -27,11 +27,6 @@ class About extends Component{
                         <p className="text-white fw-light w-75 fs-5">
                             My skillets varies from different programming  languages to networking and cloud hosting. 
                         </p>
-                        <div className="buttons d-flex flex-column row-gap-3 w-75">
-                            <div className="rounded-2 bg-red w-75 d-flex align-items-center justify-content-center p-2">
-                                <span className="fs-5 text-white">Download CV</span> 
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

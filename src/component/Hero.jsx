@@ -1,4 +1,4 @@
-import {React, Component} from "react";
+import React, {Component} from "react";
 import logo from '../assets/hero_section_logo.svg'; 
 import arrow_red from '../assets/arrow_red.svg'; 
 import arrow_white from '../assets/arrow_white.svg'; 
@@ -11,7 +11,7 @@ class Hero extends Component{
 
     render(){
         return(
-            <div id="home" className="container-md container-sm mt-5">
+            <div id="home" className="main-wrapper container-md container-sm mt-5">
                 <div className="row hero-wrapper">
                     <div className="col-6 d-flex flex-column align-items-end justify-content-center row-gap-3">
                         <h1 className="w-75 text-white">
